@@ -13,7 +13,7 @@ This command will start a new environment for Poetry and create a virtual enviro
 
 To confirm that the local environment is being used, you can list all configurations and look for `virtualenvs.in-project = true` by running the following command:
  
-```shell
+```console
 $ poetry config --list
 ```
 
