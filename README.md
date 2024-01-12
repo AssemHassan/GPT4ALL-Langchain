@@ -7,6 +7,7 @@ https://python-poetry.org/docs/#installing-with-the-official-installer
 If you would like all packages to be installed in local cashe, run
 ```
 > poetry shell
+```
 
 this should start a new enviroenment for poetry and create a virtual env.
 
