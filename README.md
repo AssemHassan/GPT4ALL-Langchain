@@ -1,10 +1,23 @@
 # GPT4ALL-Langchain
-Unlock the Power of Information Extraction with GPT4ALL and Langchain!
+## pre-requisite
+Install Poetry a Python package manager alternative to pip
+https://python-poetry.org/docs/#installing-with-the-official-installer
 
-In this tutorial, you'll discover how to effortlessly retrieve relevant information from your dataset using the open-source models in the GPT4ALL ecosystem and Langchain components.
+## Install dependencies
+If you would like all packages to be installed in local cashe, run
+```
+> poetry shell
 
-Learn how to optimize your information extraction workflow, streamline your code, and extract valuable insights with minimal lines of code. Plus, I will guide you in building a stunning Streamlit web app to showcase your results in an interactive and user-friendly way.
+this should start a new enviroenment for poetry and create a virtual env.
 
-- Video link: https://lnkd.in/gm7c5gy7
-- LinkedIn Post: https://www.linkedin.com/posts/deepak-john-reji_information-extraction-with-gpt4all-models-activity-7086689248904441856-9u4v?utm_source=share&utm_medium=member_desktop
- 
+To confirm local env is used, list all configrations and look for `virtualenvs.in-project = true`
+```
+> poetry config --list
+
+Install dependencies
+```
+> poetry install
+
+## running the app in web interface
+```
+> streamlit run app.py
