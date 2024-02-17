@@ -5,7 +5,6 @@ Created on Mon Jul 17 12:06:50 2023
 @author: dreji18
 """
 
-from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders.csv_loader import CSVLoader
 import streamlit as st
